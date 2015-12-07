@@ -1,6 +1,6 @@
 name := "finatra-playground"
 
-version := "1.0"
+version := "1.0-Snapshot"
 
 scalaVersion := "2.10.4"
 
@@ -8,6 +8,7 @@ lazy val versions = new {
   val finatra = "2.1.0"
   val scalikejdbc = "2.3.1"
   val postgresql = "9.1-901-1.jdbc4"
+  val test = "2.0"
 }
 
 
@@ -31,8 +32,13 @@ libraryDependencies ++= Seq(
   //
   "org.scalikejdbc"     %% "scalikejdbc"        % versions.scalikejdbc,
   "org.scalikejdbc"     %% "scalikejdbc-config" % versions.scalikejdbc,
+  "org.scalikejdbc"     %% "scalikejdbc-test"   % versions.scalikejdbc   % "test",
   //
   // Postgres
   //
-  "postgresql"          %  "postgresql"         % versions.postgresql
+  "postgresql"          %  "postgresql"         % versions.postgresql,
+  //
+  // Test
+  //
+  "org.scalatest"       % "scalatest_2.10"      % versions.test         %   "test"
 )
