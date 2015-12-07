@@ -19,19 +19,11 @@ class CustomerDAOSpec extends FlatSpec with Matchers {
 
 
   it should "retrieve customers by id range" in {
-    val customres = dao.findByIdRange(2 to 4)
-
+    val customers = dao.findByIdRange(2 to 4)
     // {1}
-    customres should {
-      not be Nil
-    }
-
+    customers should not be List.empty
     // {2}
-    customres should {
-      contain {
-        Customer(4, "Bob", "Finkelson")
-      } and have length 3
-    }
+    customers should { contain { Customer(4, "Bob", "Finkelson") } and have length 3 }
   }
 
 }
