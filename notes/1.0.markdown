@@ -1,8 +1,8 @@
-#Finatra & ScalalikeJdbc playground</kbd>
+#Finatra playground</kbd>
 
 ## DB support
 
-Added <kbd>ScalalikeJdbc</kbd> and <kbd>PostgreSQL</kbd>.
+Added <kbd>ScalikeJdbc</kbd> and <kbd>PostgreSQL</kbd>.
 
 
 
