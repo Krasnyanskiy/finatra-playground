@@ -1,6 +1,6 @@
 name := "finatra-playground"
 
-version := "1.0"
+version := "1.0-Snapshot"
 
 scalaVersion := "2.10.4"
 
