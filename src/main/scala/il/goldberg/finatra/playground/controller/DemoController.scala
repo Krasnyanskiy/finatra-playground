@@ -6,7 +6,7 @@ import il.goldberg.finatra.playground.model.{DummyModel, Info}
 import org.joda.time.DateTime
 
 /**
-  * @author Alexander Krasniansky
+  * @author Arri Goldberg
   */
 
 // @formatter:off

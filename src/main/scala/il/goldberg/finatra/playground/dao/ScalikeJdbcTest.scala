@@ -3,7 +3,7 @@ package il.goldberg.finatra.playground.dao
 import il.goldberg.finatra.playground.dao.CustomerDAO
 
 /**
-  * @author Alexander Krasniansky
+  * @author Arri Goldberg
   */
 object ScalikeJdbcTest extends App {
 

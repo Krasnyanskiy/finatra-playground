@@ -3,7 +3,7 @@ package il.goldberg.finatra.playground.model
 import org.joda.time.DateTime
 
 /**
-  * @author Alexander Krasniansky
+  * @author Arri Goldberg
   */
 
 // @formatter:off

@@ -4,7 +4,7 @@ import com.twitter.finagle.httpx.Request
 import com.twitter.finatra.http.Controller
 
 /**
-  * @author Alexander Krasniansky
+  * @author Arri Goldberg
   */
 class IndexController extends Controller {
 

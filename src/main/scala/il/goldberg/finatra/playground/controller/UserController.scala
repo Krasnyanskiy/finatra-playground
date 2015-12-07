@@ -7,7 +7,7 @@ import com.twitter.finatra.response.Mustache
 import il.goldberg.finatra.playground.model.User
 
 /**
-  * @author Alexander Krasniansky
+  * @author Arri Goldberg
   */
 class UserController extends Controller {
 

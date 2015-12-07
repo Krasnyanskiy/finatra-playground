@@ -6,7 +6,7 @@ import com.twitter.finatra.http.routing.HttpRouter
 import il.goldberg.finatra.playground.controller.{UserController, IndexController, DemoController}
 
 /**
-  * @author Alexander Krasniansky
+  * @author Arri Goldberg
   */
 object App extends HttpServer {
 

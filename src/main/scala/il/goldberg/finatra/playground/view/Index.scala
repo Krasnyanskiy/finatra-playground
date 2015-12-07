@@ -3,9 +3,9 @@ package il.goldberg.finatra.playground.view
 import com.twitter.finatra.response.Mustache
 
 /**
-  * @author Alexander Krasniansky
+  * @author Arri Goldberg
   */
 @Mustache("index")
 class Index {
-
+  // todo
 }

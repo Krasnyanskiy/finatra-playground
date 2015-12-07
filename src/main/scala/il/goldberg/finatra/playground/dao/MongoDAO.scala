@@ -3,7 +3,7 @@ package il.goldberg.finatra.playground.dao
 import il.goldberg.finatra.playground.model.{Account, User}
 
 /**
-  * @author Alexander Krasniansky
+  * @author Arri Goldberg
   */
 trait MongoDAO {
 

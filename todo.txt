@@ -1,2 +1,1 @@
-1. Add DB support (Scalikejdbc + PostgreSQL)
-2. Add simple API
+1. Add simple REST API

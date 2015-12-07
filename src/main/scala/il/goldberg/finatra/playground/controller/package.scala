@@ -3,7 +3,7 @@ package il.goldberg.finatra.playground
 import il.goldberg.finatra.playground.controller.PrintableString
 
 /**
-  * @author Alexander Krasniansky
+  * @author Arri Goldberg
   */
 package object controller {
 
