@@ -1,0 +1,9 @@
+Finatra and ScalalikeJdbc playground.
+
+## DB support
+
+Added ScalalikeJdbc and PostgreSQL.
+
+
+
+

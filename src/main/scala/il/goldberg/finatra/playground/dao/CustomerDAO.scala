@@ -1,5 +1,7 @@
 package il.goldberg.finatra.playground.dao
 
+import il.goldberg.finatra.playground.model.Customer
+
 import scalikejdbc._
 import scalikejdbc.config._
 
@@ -8,12 +10,7 @@ import scalikejdbc.config._
   */
 class CustomerDAO {
 
-  case class Customer(id: Long, firstname: String, lastname: String)
-  object Customer extends SQLSyntaxSupport[Customer]
-
   DBs.setupAll()
-
-  val c = Customer.syntax("c")
 
   def findById(id: Long)(implicit session: DBSession = Customer.autoSession) = {
     sql"SELECT * FROM customers WHERE id = $id".map(

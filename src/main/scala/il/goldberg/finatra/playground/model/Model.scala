@@ -1,6 +1,8 @@
 package il.goldberg.finatra.playground.model
 
 import org.joda.time.DateTime
+import scalikejdbc._
+//import scalikejdbc.config._
 
 /**
   * @author Arri Goldberg
@@ -28,3 +30,6 @@ case class User   (name  : String, age: Int)
 case class Account(number: Long) // * 3412-2334-3424-3444
 
 // @formatter:on
+
+case class Customer(id: Long, firstname: String, lastname: String)
+object Customer extends SQLSyntaxSupport[Customer]
