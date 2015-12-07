@@ -18,4 +18,5 @@ object App extends HttpServer {
       .add[IndexController]
       .add[UserController]
   }
+
 }

@@ -7,6 +7,8 @@ import il.goldberg.finatra.playground.model.{Account, User}
   */
 trait MongoDAO {
 
+  // todo
+
   def user(id: Long): User
   def user(name: String): User
 
