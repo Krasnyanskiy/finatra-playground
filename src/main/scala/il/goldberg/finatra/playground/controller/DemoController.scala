@@ -1,6 +1,6 @@
 package il.goldberg.finatra.playground.controller
 
-import javax.inject._
+import javax.inject.{Singleton, Inject}
 
 import com.twitter.finagle.httpx.Request
 import com.twitter.finatra.http.Controller
