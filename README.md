@@ -1,3 +1,3 @@
 # Finatra Playground
 
-Finatra and ScalalikeJdbc/ReactiveMongo playground.
+Finatra and ScalikeJdbc/ReactiveMongo playground.
