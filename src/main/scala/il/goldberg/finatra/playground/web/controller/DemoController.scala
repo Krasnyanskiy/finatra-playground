@@ -1,4 +1,4 @@
-package il.goldberg.finatra.playground.controller
+package il.goldberg.finatra.playground.web.controller
 
 import javax.inject.{Singleton, Inject}
 

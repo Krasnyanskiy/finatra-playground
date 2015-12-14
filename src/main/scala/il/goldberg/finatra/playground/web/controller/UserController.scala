@@ -1,13 +1,12 @@
-package il.goldberg.finatra.playground.controller
+package il.goldberg.finatra.playground.web.controller
 
 import java.io.File
 
 import com.twitter.finagle.httpx.Method.Get
 import com.twitter.finagle.httpx.Request
-import com.twitter.finatra.http.routing.FileResolver
 import com.twitter.finatra.http.{RouteBuilder, Controller}
 import com.twitter.finatra.response.Mustache
-import il.goldberg.finatra.playground.model.User
+//import il.goldberg.finatra.playground.model.User
 
 /**
   * @author Arri Goldberg
@@ -59,7 +58,7 @@ class UserController extends Controller {
   case class User(name: String, job: String)
 
   @Mustache("users")
-  case class UsersView(/*path: String,*/ users: Seq[User])
+  case class UsersView(users: Seq[User])
 
 
 }
