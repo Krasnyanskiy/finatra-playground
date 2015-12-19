@@ -8,6 +8,8 @@ import il.goldberg.finatra.playground.dao.CustomerDAO
 import il.goldberg.finatra.playground.model.{Customer, DummyModel, Info}
 import org.joda.time.DateTime
 
+import scala.util.{Success, Failure}
+
 /**
   * @author Arri Goldberg
   */

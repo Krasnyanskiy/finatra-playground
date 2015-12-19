@@ -3,7 +3,7 @@ package il.goldberg.finatra.playground
 import com.twitter.finatra.http.HttpServer
 import com.twitter.finatra.http.filters.CommonFilters
 import com.twitter.finatra.http.routing.HttpRouter
-import il.goldberg.finatra.playground.web.controller.{UserController, IndexController, DemoController}
+import il.goldberg.finatra.playground.web.controller.{AssetsController, UserController, IndexController, DemoController}
 import il.goldberg.finatra.playground.web.filter.ForbiddenFilter
 
 /**
@@ -19,6 +19,6 @@ object App extends HttpServer {
       .add[DemoController]
       .add[IndexController]
       .add[UserController]
+      .add[AssetsController]
   }
-
 }
