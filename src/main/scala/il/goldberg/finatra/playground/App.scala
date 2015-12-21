@@ -11,6 +11,8 @@ import il.goldberg.finatra.playground.web.filter.ForbiddenFilter
   */
 object App extends HttpServer {
 
+  override val modules = Seq(PropertyProviderModule)
+
   override def defaultFinatraHttpPort = ":7755"
 
   override def configureHttp(router: HttpRouter) = {

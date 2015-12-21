@@ -4,7 +4,9 @@ import java.io.File
 import javax.inject.Inject
 
 import com.twitter.finagle.httpx.Request
+import com.twitter.finatra.annotations.Flag
 import com.twitter.finatra.http.Controller
+import il.goldberg.finatra.playground.PropertyProviderModule
 
 /**
   * Controller for the application’s static resources such
@@ -12,7 +14,9 @@ import com.twitter.finatra.http.Controller
   *
   * @author Arri Goldberg
   */
-class AssetsController @Inject()(path: String) extends Controller {
+class AssetsController @Inject()(
+  @Flag("foo") path: String
+) extends Controller {
 
   private[this] val _path = "/Users/akrasnyanskiy/IdeaProjects/finatra-playground/src/main/resources/public/"
 

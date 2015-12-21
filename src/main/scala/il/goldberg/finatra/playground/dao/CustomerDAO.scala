@@ -2,7 +2,7 @@ package il.goldberg.finatra.playground.dao
 
 import com.twitter.util.Try
 import il.goldberg.finatra.playground.dao.CustomerDAO.customerMapper
-import il.goldberg.finatra.playground.model.Customer
+import il.goldberg.finatra.playground.domain.Customer
 
 import scalikejdbc._
 import scalikejdbc.config._

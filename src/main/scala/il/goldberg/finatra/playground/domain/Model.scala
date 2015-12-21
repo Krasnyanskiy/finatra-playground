@@ -1,4 +1,4 @@
-package il.goldberg.finatra.playground.model
+package il.goldberg.finatra.playground.domain
 
 import org.joda.time.DateTime
 import scalikejdbc._
