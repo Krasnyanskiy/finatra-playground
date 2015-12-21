@@ -1,6 +1,4 @@
-package il.goldberg.finatra.playground
-
-import il.goldberg.finatra.playground.controller.PrintableString
+package il.goldberg.finatra.playground.web
 
 /**
   * @author Arri Goldberg

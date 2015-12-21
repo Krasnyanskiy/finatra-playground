@@ -1,4 +1,4 @@
-package il.goldberg.finatra.playground.controller
+package il.goldberg.finatra.playground.web.controller
 
 import com.twitter.finagle.httpx.Request
 import com.twitter.finatra.http.Controller

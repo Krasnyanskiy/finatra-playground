@@ -1,6 +1,6 @@
 package il.goldberg.finatra.playground.dao
 
-import il.goldberg.finatra.playground.model.{Account, User}
+import il.goldberg.finatra.playground.domain.{Account, User}
 
 /**
   * @author Arri Goldberg

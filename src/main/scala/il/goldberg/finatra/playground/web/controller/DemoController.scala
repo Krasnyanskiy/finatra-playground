@@ -1,23 +1,20 @@
-package il.goldberg.finatra.playground.controller
+package il.goldberg.finatra.playground.web.controller
 
 import javax.inject.{Singleton, Inject}
 
 import com.twitter.finagle.httpx.Request
 import com.twitter.finatra.http.Controller
 import il.goldberg.finatra.playground.dao.CustomerDAO
-import il.goldberg.finatra.playground.model.{Customer, DummyModel, Info}
+import il.goldberg.finatra.playground.domain.{Customer, DummyModel, Info}
 import org.joda.time.DateTime
+
+import scala.util.{Success, Failure}
 
 /**
   * @author Arri Goldberg
   */
-// @formatter:off
-
-@Singleton class DemoController @Inject()(
-  customerDAO: CustomerDAO
-) extends Controller {
-
-  // @formatter:on
+@Singleton
+class DemoController @Inject()(customerDAO: CustomerDAO) extends Controller {
 
   // ::: GET :::
 

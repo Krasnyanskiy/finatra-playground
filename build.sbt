@@ -9,6 +9,8 @@ lazy val versions = new {
   val scalikejdbc = "2.3.1"
   val postgresql = "9.1-901-1.jdbc4"
   val test = "2.0"
+  val tsConfig = "1.3.0"
+  val tsGuiceConfig = "0.0.2"
 }
 
 
@@ -27,6 +29,11 @@ libraryDependencies ++= Seq(
   "com.twitter.finatra" %% "finatra-http"       % versions.finatra,
   "com.twitter.finatra" %% "finatra-httpclient" % versions.finatra,
   "com.twitter.inject"  %% "inject-core"        % versions.finatra,
+  //
+  // Config
+  //
+  "com.github.racc"     % "typesafeconfig-guice"% versions.tsGuiceConfig,
+  "com.typesafe"        % "config"              % versions.tsConfig,
   //
   // Jdbc
   //

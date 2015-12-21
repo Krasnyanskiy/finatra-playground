@@ -1,6 +1,6 @@
 package il.goldberg.finatra.playground.dao
 
-import il.goldberg.finatra.playground.model.Customer
+import il.goldberg.finatra.playground.domain.Customer
 import org.scalatest.{FlatSpec, Matchers, fixture}
 import scalikejdbc._
 import scalikejdbc.scalatest.AutoRollback
