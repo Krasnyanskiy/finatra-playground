@@ -27,6 +27,8 @@ libraryDependencies ++= Seq(
   "com.twitter.finatra" %% "finatra-http"       % versions.finatra,
   "com.twitter.finatra" %% "finatra-httpclient" % versions.finatra,
   "com.twitter.inject"  %% "inject-core"        % versions.finatra,
+  "com.github.racc"     % "typesafeconfig-guice"% "0.0.2",
+  "com.typesafe"        % "config"              % "1.3.0",
   //
   // Jdbc
   //
