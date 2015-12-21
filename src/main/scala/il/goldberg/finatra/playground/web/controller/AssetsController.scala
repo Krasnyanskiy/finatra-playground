@@ -15,14 +15,14 @@ import com.twitter.finatra.http.Controller
   * @author Arri Goldberg
   */
 class AssetsController @Inject()(
-  @TypesafeConfig("app.assets.path") assertsPath: String
+  @TypesafeConfig("app.assets.path") assetsPath: String
 ) extends Controller {
 
   get("/public/:*") {
     req: Request => {
       req.params.get("*") match {
         case Some(fn) =>
-          response.ok.file(new File(assertsPath + fn))
+          response.ok.file(new File(assetsPath + fn))
         case None => {
           response.notFound("Oh no!")
         }
